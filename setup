@@ -1,0 +1,8 @@
+!#/bin/bash
+
+# wheel install
+
+pip install wheel
+python setup.py bdist_wheel
+
+twine upload dist/devintern1804jsp-1.0-py3-none-any.whl
