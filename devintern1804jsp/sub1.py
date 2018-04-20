@@ -1,6 +1,5 @@
 
-"""
-sub1에는 func1과 unit_test1 함수가 있습니다.
+"""sub1에는 func1과 unit_test1 함수가 있습니다.
 
 func1은 2개의 데이터프레임을 시간 순서대로 합치는 함수입니다.
 입력값은 데이터프레임 2개입니다.
@@ -10,7 +9,6 @@ unit_test1은 임의의 데이터 프레임 2개를 만든 후, func1 함수를 
 입력값으로 데이터프레임의 길이 n을 받습니다.
 """
 
-import pandas as import pd
 import pandas as pd
 import datetime
 import random

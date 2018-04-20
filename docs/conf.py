@@ -14,8 +14,7 @@
 #
 import os
 import sys
-sys.path.insert(0, '/Users/js.p/Documents/dev/devintern1804jsp/devintern1804jsp')
-
+sys.path.insert(0, '/Users/js.p/Documents/dev/devintern1804jsp')
 
 # -- Project information -----------------------------------------------------
 
