@@ -1,0 +1,11 @@
+#!/bin/bash
+
+aws ec2 run-instances --image-id ami-a414b9ca --security-group-ids sg-2d5b9d47 --count 1 --instance-type t2.micro --key-name devenv-key --query 'Instances[0].InstanceId'
+
+aws ec2 describe-instances --instance-ids i-0787e4282810ef9cf --query 'Reservations[0].Instances[0].PublicIpAddress'
+
+ssh -i devenv-key.pem user@54.183.22.255
+
+
+
+
